@@ -12,6 +12,14 @@ public class AssignmentFour<E>{
     double found = 0;
     double notFound = 0;
  
+  /**
+     *
+     * @requires - a dictionary test file and a text file of the words
+     *              to be checked
+     * @ensures - the number of words not/found and the total number of 
+     *              words checked.
+     * 
+     */
     public void assignmentFour() {
         MyLinkedList[] dictionaryList = new MyLinkedList[26];
 
